@@ -2,23 +2,23 @@
 - Postman
 - Jmeter
 - CheckLists
-- Bag Reports
+- Bug Reports
 - SQL
 - Charles
 - Mobile_testing
 
-1.1 Open GitHub and create new repository “GitHubHW2”
-1.2 Copy ssh or http repository link
-1.3 Open Terminal and type : clone “repository link”
-1.4 Change directory to “GitHubHW2” cd GitHubHW2
+1.1 Открыть GitHub создать new repository “GitHubHW2”
+1.2 Скопировать http или ssh repository ссылку
+1.3 Открыть Terminal, ввести команду git clone "repository link"
+1.4 Зайти в directory to "GitHubHW2" cd GitHubHW2
 1.5 git branch Postman | git branch Jmeter | git branch CheckLists 
 git branch Bug_Reports | git branch SQL | git branch Charles | git branch Mobile_testing
 
 2. Запушить все ветки на внешний репозиторий
-2.1 git push —-all —-set-upstream // or use git push —- all -u
+2.1 git push —-all —-set-upstream или git push —- all -u
 
-3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта
-3.1 Jump into BugReports branch : git checkout Bug_Reports
+3. В ветке Bug Reports сделать текстовый документ со структурой баг репорта
+3.1 Перейти в ветку BugReports branch : git checkout Bug_Reports
 3.2 Cоздать текстовый файл touch bug_reports.txt
 3.3 vim bug_reports.txt
 
@@ -27,8 +27,8 @@ git branch Bug_Reports | git branch SQL | git branch Charles | git branch Mobile
 4.2 git commit -m «add bugreport»
 4.3 git push 
 
-5. Вмержить ветку Bag Reports в Main
-5.1 Jump into main branch: git checkout main
+5. Вмержить ветку Bug Reports в Main
+5.1 Перейти в ветку main branch: git checkout main
 5.2 git merge Bug_Reports
 
 6. Запушить main на внешний репозиторий.
